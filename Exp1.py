@@ -19,7 +19,6 @@ def bfs(source, goals):
     while open_list:
         current = open_list.pop(0)
         traversal.append(current)
-
         if current in goals:
             # Construct the path
             distance = distances[current]
